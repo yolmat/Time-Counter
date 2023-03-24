@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Quanto tempo falta?</header>
+      <main>
+        <form>
+          <label for="data">Seleciona uma data:</label>
+          <input type="date" id="inputData" />
+          <button id="btnStart">Começar o contador</button>
+        </form>
+        <article>
+          <div id="time">
+            <h3 id="hour">00</h3>
+            :
+            <h3 id="min">00</h3>
+            :
+            <h3 id="sec">00</h3>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
